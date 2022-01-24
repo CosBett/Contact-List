@@ -15,3 +15,10 @@ def save_contacts(contact):
     Function to save contact
     '''
     contact.save_contact()
+
+
+def del_contact(contact):
+    '''
+    Function to delete a contact
+    '''
+    contact.delete_contact()
